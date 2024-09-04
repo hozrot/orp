@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "ePassport",
+    "slug": "epassport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+     
+      "favicon": "./assets/favicon.png",
+      "build": {
+        "babel": {
+          "include": [
+            "@ui-kitten/components"
+          ]
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82d9cf09-06f4-4925-b8b7-b5b0bcc813ea"
+      }
+    },
+    "owner": "epassport",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/82d9cf09-06f4-4925-b8b7-b5b0bcc813ea"
+    }
+  }
+}
